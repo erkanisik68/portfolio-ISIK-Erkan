@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO ISIK Erkan</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header class="section-principale">
+        <section class="barre-outils">
+            <nav class="bureau">
+                <div class="element-tout"><a href="#">ISIK Erkan</a></div>
+                <div class="element-bureau">
+                    <div><a href="#mes-projets">Projets</a></div>
+                    <div><a href="#a-propos">À propos</a></div>
+                    <div><a href="#contact">Contact</a></div>
+                </div>
+                <div class="element-mobile">
+                    <div class="element fermer"><a href="#" class="fermerMenu"><i class="fa fa-times" aria-hidden="true"></i></a></div>
+                    <div class="nav-mobile"><a href="#mes-projets" class="fermerMenu">Portfolio</a></div>
+                    <div class="nav-mobile"><a href="#a-propos" class="fermerMenu">À propos</a></div>
+                    <div class="nav-mobile"><a href="#contact" class="fermerMenu">Contact</a></div>
+                </div>
+                <div class="element menu"><a href="#" class="ouvrirMenu"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
+            </nav>
+        </section>
+    </header>
+    
+    <main class="parties-principales">
+        <section class="section-accueil">
+            <h1>Bonjour, je m'appelle ISIK Erkan <br> Bienvenue sur mon site !</h1>
+            <p>Je suis actuellement étudiant à l'IUT de Mulhouse en BUT MMI (Métiers du Multimédia de l'Internet). Passionné par le développement web et la création de contenu multimédia, j'acquiers des compétences variées allant du design graphique au développement de sites web interactifs. Mon objectif est de devenir un expert polyvalent capable de réaliser des projets innovants et créatifs. Découvrez certains de mes travaux et expériences ! Si vous aimez ce que vous voyez et avez un projet à coder ou un besoin en design, n'hésitez pas à me contacter.</p>
+            <p class="connecter">Rejoignez-moi sur les autres réseaux :</p>
+            <ul class="icones-sociales">
+                <li><a href="https://www.linkedin.com/in/erkan-isik-devweb-alternance-crea-stage/   " target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/rknn.68/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </section>
+        
+        <!-- Nouvelle section "Mes Projets" -->
+<section class="mes-projets-section" id="mes-projets">
+    <div class="mes-projets-content">
+        <img src="images/SAE105.png" alt="Image Projet" class="mes-projets-image" onclick="openModal('modal1')">
+        <div class="mes-projets-texte">
+            <h2>Mes Projets</h2>
+            <p>Voici quelques-uns des projets sur lesquels j'ai travaillé. Chaque projet m'a permis d'acquérir de nouvelles compétences et d'approfondir mes connaissances en développement web et en design multimédia.</p>
+        </div>
+    </div>
+    <div class="projets-supplementaires">
+        <img src="images/site immo.png" alt="Image Projet 2" class="mes-projets-image" onclick="openModal('modal2')">
+        <img src="images/wordpress.png" alt="Image Projet 3" class="mes-projets-image" onclick="openModal('modal3')">
+    </div>
+</section>
+
+
+<!-- Modale pour le projet 1 -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h2>Détails du Projet 1</h2>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="images/SAE105.png" alt="Image Projet 1" class="modal-image">
+                <img src="images/projet1-2.png" alt="Image Projet 1 - 2" class="modal-image">
+                <img src="images/projet1-3.png" alt="Image Projet 1 - 3" class="modal-image">
+            </div>
+            <a class="prev" onclick="changeSlide('modal1', -1)">&#10094;</a>
+            <a class="next" onclick="changeSlide('modal1', 1)">&#10095;</a>
+        </div>
+        <p>Description détaillée du projet 1...</p>
+    </div>
+</div>
+
+<!-- Modale pour le projet 2 -->
+<div id="modal2" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h2>Détails du Projet 2</h2>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="images/site immo.png" alt="Image Projet 2" class="modal-image">
+                <img src="images/projet2-1.png" alt="Image Projet 2 - 2" class="modal-image">
+                <img src="images/projet2-2.png" alt="Image Projet 2 - 3" class="modal-image">
+            </div>
+            <a class="prev" onclick="changeSlide('modal2', -1)">&#10094;</a>
+            <a class="next" onclick="changeSlide('modal2', 1)">&#10095;</a>
+        </div>
+        <p>Description détaillée du projet 2...</p>
+    </div>
+</div>
+
+<!-- Modale pour le projet 3 -->
+<div id="modal3" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('modal3')">&times;</span>
+        <h2>Détails du Projet 3</h2>
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="images/wordpress.png" alt="Image Projet 3" class="modal-image">
+                <img src="images/projet3-1.png" alt="Image Projet 3 - 2" class="modal-image">
+                <img src="images/projet3-2.png" alt="Image Projet 3 - 3" class="modal-image">
+            </div>
+            <a class="prev" onclick="changeSlide('modal3', -1)">&#10094;</a>
+            <a class="next" onclick="changeSlide('modal3', 1)">&#10095;</a>
+        </div>
+        <p>Description détaillée du projet 3...</p>
+    </div>
+</div>
+
+
+
+
+
+        <section class="travaux" id="portfolio">
+            <!-- Les projets seront chargés dynamiquement ici -->
+        </section>
+        <section class="a-propos-de-moi" id="a-propos">
+            <div class="bureau-a-propos">
+                <div class="texte-et-photo">
+                    <div class="texte">
+                        <h1>À propos <br> de moi</h1>
+                        <p>Je suis développeur logiciel ! Je peux vous aider à créer un produit, une fonctionnalité ou un site Web. Découvrez certains de mes travaux et expériences ! Si vous aimez ce que vous voyez et avez un projet à coder, n'hésitez pas à me contacter.</p>
+                    </div>
+                    <div class="photo">
+                        <img src="images/image coupé.png" alt="Ma photo" class="photo-tete">
+                    </div>
+                </div>
+                <p class="connecter">CONNECTONS-NOUS</p>
+                <ul class="icones-contact">
+                <li><a href="https://www.linkedin.com/in/erkan-isik-devweb-alternance-crea-stage/   " target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/rknn.68/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                </ul>
+                <a href="images/CV ISIK Erkan 2024.pdf" class="cv" target="_blank">Obtenir mon CV</a>
+            </div>
+            <div class="competences">
+                <div class="bureau-programmation">
+                    <ul class="element-exterieur">
+                        <li class="programmation">
+                            <img src="images/javaScript.png" alt="">
+                            <li>
+                            <p>JavaScript</p>
+                        </li>
+                    </ul>
+                    <ul class="element-exterieur">
+                        <li class="programmation">
+                            <img src="images/html.png" alt="HTML"></li>
+                        <li>
+                            <p>HTML</p>
+                        </li>
+                    </ul>
+                    <ul class="element-exterieur">
+                        <li class="programmation"><img src="images/css.png" alt="CSS"></li>
+                        <li>
+                            <p>CSS</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="div-interne">
+                <h2>Contactez-moi</h2>
+                <p class="div-interne">Si vous avez une application que vous souhaitez développer, une fonctionnalité que vous avez besoin de créer ou un projet qui nécessite du code. Je serais ravi de vous aider.</p>
+            </div>
+            <form action="https://formspree.io/f/xbjwrzvy" id="formulaire" class="formulaire" method="post">
+                <ul class="liste-interne">
+                    <li><input type="text" class="controle-formulaire" placeholder="Nom complet" name="name" id="nom" size="40" maxlength="30"></li>
+                    <li></li>
+                    <li><input type="email" class="controle-formulaire" name="email" id="email" placeholder="Adresse e-mail"></li>  
+                    <li></li>
+                    <li><textarea name="message" class="controle-formulaire" id="message" placeholder="Message"></textarea></li>
+                    <li></li>
+                    <li class="element-flex6" id="bouton-soumettre"><button type="submit">Contactez-moi</button></li>
+                    <li class="forme"><img src="images/forme.png" alt="forme"></li>
+                </ul>
+            </form>
+        </section>
+    </main>
+    <section class="popup-travaux" id="popup-portfolio"></section>
+
+<!-- Ajoutez ce script juste avant la balise fermante </body> -->
+<script>
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = "block";
+    }
+    
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+
+    // Ajouter ce script dans votre fichier JavaScript ou directement dans une balise <script> à la fin de votre fichier HTML
+
+let currentSlideIndices = {
+    modal1: 0,
+    modal2: 0,
+    modal3: 0
+};
+
+function showSlide(modalId, index) {
+    const slides = document.querySelectorAll(`#${modalId} .carousel-images img`);
+    if (index >= slides.length) {
+        currentSlideIndices[modalId] = 0;
+    } else if (index < 0) {
+        currentSlideIndices[modalId] = slides.length - 1;
+    } else {
+        currentSlideIndices[modalId] = index;
+    }
+    const offset = -currentSlideIndices[modalId] * 100;
+    slides.forEach(slide => {
+        slide.style.transform = `translateX(${offset}%)`;
+    });
+}
+
+function changeSlide(modalId, step) {
+    showSlide(modalId, currentSlideIndices[modalId] + step);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    showSlide('modal1', currentSlideIndices.modal1);
+    showSlide('modal2', currentSlideIndices.modal2);
+    showSlide('modal3', currentSlideIndices.modal3);
+});
+
+    </script>
+    
+
+</body>
+</html>

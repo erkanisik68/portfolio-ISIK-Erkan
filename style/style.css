@@ -1,0 +1,1722 @@
+body {
+    background-color: #e5e5e5;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.element-bureau, .element-bureau1, .element-flex2-bureau, .technologie-bureau, .conteneur-langage {
+    display: none;
+}
+
+nav {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1em;
+    background-color: white;
+}
+
+a {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 20px;
+    color: #6070ff;
+    text-decoration-line: none;
+}
+
+.section-accueil {
+    background-image: url(images/header-shape.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: white;
+    display: flex;
+    height: 620px;
+    flex-direction: column;
+    padding: 20px 20px;
+    border-bottom-left-radius: 25% 10px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    color: #172b4d;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+}
+
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+}
+
+.connecter {
+    color: #3d4ee4;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 1px;
+    margin: 1px;
+}
+
+li a {
+    color: #344563;
+    margin-left: 3px;
+    padding-right: 1px;
+}
+
+.icones-sociales {
+    margin-left: 35px;
+    display: flex;
+}
+
+.conteneur-principal {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.element-grille {
+    background-color: white;
+    display: flex;
+    margin-bottom: 100px;
+    flex-direction: column;
+    padding: 20px 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3%;
+}
+
+.element-mobile {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #6070fff0;
+    text-align: left;
+    display: none;
+}
+
+.element-mobile a {
+    color: #fff;
+}
+
+.technologie a {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6070ff;
+    border-radius: 8px;
+    text-align: center;
+    background: #ebebff;
+    padding: 5px 10px;
+    margin-left: 0;
+}
+
+.element-flex3 a {
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-content: space-around;
+    color: #7a869a;
+}
+
+.nav-mobile a {
+    font-size: 32px;
+}
+
+.popup-travaux span a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #acb7c3;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.element-mobile .fermer a {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.element-mobile .fermer {
+    padding-top: 50px;
+    text-align: right;
+    padding-right: 38px;
+    font-weight: lighter;
+}
+
+.nav-mobile {
+    padding: 15px 28px;
+}
+
+.element-flex2 {
+    display: flex;
+    margin-top: -30px;
+}
+
+.element-flex3 {
+    display: flex;
+    align-content: space-around;
+    margin-left: 40px;
+}
+
+.element-flex5 {
+    display: flex;
+}
+
+.element-interne-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.competences {
+    display: flex;
+    flex-direction: column;
+}
+
+.element-exterieur {
+    display: flex;
+    flex-direction: column;
+}
+
+.competences {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid #acb7c3;
+}
+
+.a-propos-de-moi i {
+    padding-top: 22px;
+    align-content: flex-end;
+}
+
+.cadre {
+    display: flex;
+    text-align: center;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    border-bottom: 1px solid #acb7c3;
+}
+
+.cadre p {
+    color: #000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.competences p {
+    color: #000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.langages {
+    display: flex;
+    text-align: center;
+    flex: 1 1 auto;
+    justify-content: space-between;
+}
+
+.langages p {
+    color: #000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.element-exterieur {
+    display: flex;
+    text-align: center;
+    flex: 1 1 auto;
+    border-color: #acb7c3;
+    border-radius: 8px;
+    background-color: #f7f7f9;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+
+.element-exterieur p {
+    font-weight: 500;
+    font-size: 15px;
+    color: #253858;
+    line-height: 20px;
+}
+
+.element-grille img {
+    width: 100%;
+    height: 220px;
+}
+
+.a-propos-de-moi {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    padding-top: 100px;
+    border-top-right-radius: 25% 50px;
+}
+
+.icones-contact {
+    margin-left: 45px;
+    padding-bottom: 20px;
+}
+
+.a-propos-de-moi button {
+    border-radius: 8px;
+    border: 1px solid #3d4ee4;
+    width: 170px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.element-flex6 button {
+    border-radius: 8px;
+    border: 1px solid #3d4ee4;
+    width: 140px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.element-flex3 img {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+}
+
+.canopy {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+}
+
+.element-flex4 {
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+}
+
+.element-flex2 h2 {
+    color: #172b4d;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.liste-interne {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    background-color: #6070ff;
+    background-image: url(images/contact.png);
+    background-size: 100%;
+    border-top-left-radius: 100px;
+    margin-top: 100px;
+}
+
+.div-interne {
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+.div-interne h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+
+.div-interne p {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+}
+
+.formulaire {
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+.controle-formulaire {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    color: #000;
+}
+
+.controle-formulaire {
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    width: 100%;
+    height: 150px;
+    padding-left: 10px;
+    font-size: 15px;
+    line-height: 24px;
+    padding-top: 10px;
+}
+
+.forme {
+    padding-right: 25%;
+    padding-left: 35%;
+}
+
+button:hover {
+    background: #8f9afc;
+    color: white;
+}
+
+button:active {
+    background: #0416b6;
+    color: white;
+}
+
+#popup-portfolio {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(76, 78, 82, 0.7);
+    display: none;
+}
+
+ul.travaux-flex-element.titres-conteneur {
+    margin: 10px;
+}
+
+.travaux-flex {
+    padding: 20px;
+    background: #fff;
+    margin: 25px 20px;
+    border-radius: 10px;
+}
+
+.travail-image img {
+    width: 100%;
+}
+
+.titres-element {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: lightslategray;
+    font-weight: 500;
+    list-style-image: url(images/Counter.png);
+    padding-right: 25px;
+}
+
+.liste-principale {
+    padding-right: 10px;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: #344563;
+    line-height: 24px;
+}
+
+.travaux-flex-pop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.travail-description p {
+    font-size: 18px;
+    color: #344563;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+}
+
+.tags {
+    width: 25%;
+}
+
+.tags ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.groupe-langage,
+.groupe-langage-2 {
+    background: #ebebff;
+    border-radius: 8px;
+    font-size: 12px;
+    padding: 4px 12px 4px;
+    color: #6070ff;
+    margin-top: 5px;
+    line-height: 16px;
+}
+
+.btn-tags {
+    border-top: 1px solid rgb(236, 234, 234);
+    padding-top: 20px;
+}
+
+a.btn-voir-projet {
+    text-decoration: none;
+    color: #4053fc;
+}
+
+.btn-voir-projet {
+    border: 1px solid #396df2;
+    padding: 7px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    transition-duration: 0.4s;
+    margin: 0 5px 0 5px;
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: #e5e5e5;
+        font-family: 'Poppins', sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: none;
+        text-decoration-line: none;
+    }
+
+    .element-flex1, .forme, .element, .element-flex2, .element-mobile, .mobile {
+        display: none;
+    }
+
+    .bureau {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        flex: 1 1 auto;
+        text-align: center;
+        padding: 1em;
+        background-color: white;
+        justify-content: space-between;
+    }
+
+    .element-tout a {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        line-height: 20px;
+        color: #6070ff;
+        margin-left: 150px;
+        float: right;
+    }
+
+    .element-bureau {
+        display: flex;
+        flex-direction: row;
+        margin-right: 100px;
+    }
+
+    .element-bureau a {
+        padding-right: 20px;
+        color: #344563;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: center;
+        transition: color 2s;
+    }
+
+    .icones-sociales a {
+        font-size: 2em;
+        color: #344563;
+    }
+
+    .popup-travaux span a {
+        text-decoration: none;
+        font-weight: bolder;
+        color: #acb7c3;
+        font-size: 20px;
+        padding-right: 20px;
+    }
+
+    .section-accueil {
+        background-image: url(images/Header_bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-color: white;
+        display: flex;
+        height: 620px;
+        flex-direction: column;
+        padding: 300px 200px 50px 250px;
+        margin-bottom: 120px;
+        border-bottom-left-radius: 100px;
+    }
+
+    .section-accueil h1 {
+        color: #091e42;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .section-accueil p {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 28px;
+        color: #344563;
+    }
+
+    .icones-sociales {
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        padding: 1px;
+        margin: 1px;
+    }
+
+    .conteneur-principal {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 100px;
+        align-content: space-around;
+        margin: 100px 100px 150px 130px;
+    }
+
+    #travail-1, #travail-3 {
+        background-color: white;
+        display: flex;
+        height: 450px;
+        flex-direction: row;
+        padding: 20px 20px;
+        border: 1px solid #e5e5e5;
+        border-radius: 30px;
+    }
+
+    #travail-2, #travail-4 {
+        background-color: white;
+        display: flex;
+        height: 450px;
+        flex-direction: row-reverse;
+        padding: 20px 20px;
+        border: 1px solid #e5e5e5;
+        border-radius: 30px;
+    }
+
+    .element-bureau1 {
+        padding-right: 30px;
+    }
+
+    .colonne-bureau {
+        display: flex;
+        flex-direction: column;
+        padding: 1px 10px 100px 20px;
+    }
+
+    .colonne-bureau h2 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        color: #091e42;
+    }
+
+    ul {
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        padding: 1px;
+        margin-left: -40px;
+        margin-top: -20px;
+    }
+
+    .element-interne li a {
+        color: #6b778c;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .canopy {
+        font-weight: 600;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24px;
+        color: #344563;
+    }
+
+    .element-flex4 {
+        padding-bottom: 25px;
+    }
+
+    .element-flex4 p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #344563;
+    }
+
+    .element-flex3 {
+        display: flex;
+        align-content: space-around;
+        margin-left: 40px;
+    }
+
+    .element-flex5 {
+        display: flex;
+        margin-left: 50px;
+    }
+
+    .element-interne-flex {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .element-interne-flex li a {
+        font-size: 12px;
+        font-weight: 500;
+        color: #6070ff;
+        border-radius: 8px;
+        text-align: center;
+        background: #ebebff;
+        padding: 5px 10px;
+    }
+
+    .element-flex6 button {
+        border: 1px solid #dfe1e6;
+        border-radius: 8px;
+        width: 140px;
+        height: 50px;
+        text-align: center;
+        padding: 10px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        letter-spacing: 0.03em;
+        color: #396df2;
+        background-color: white;
+        margin-top: 30px;
+    }
+
+    .cv {
+        border: 1px solid #dfe1e6;
+        border-radius: 8px;
+        width: 180px;
+        height: 50px;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        letter-spacing: 0.03em;
+        color: #396df2;
+        background-color: white;
+    }
+
+    button:hover {
+        background: #8f9afc;
+        color: white;
+    }
+
+    button:active {
+        background: #0416b6;
+        color: white;
+        box-shadow: 0 8px 16px;
+    }
+
+    .a-propos-de-moi {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        padding: 100px 20px 150px 20px;
+        border-top-right-radius: 100px;
+        height: 680px;
+    }
+
+    .bureau-a-propos {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        padding: 80px 10px 100px 120px;
+    }
+
+    .competences {
+        display: flex;
+        flex-direction: column;
+        margin-right: 130px;
+        margin-left: 80px;
+        width: 500px;
+    }
+
+    .bureau-programmation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .element-exterieur {
+        display: flex;
+        flex-direction: column;
+        width: 120px;
+        height: 100px;
+        background: #f7f7f9;
+        border-radius: 8px;
+        margin-right: 55px;
+        margin-top: 2px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .travail-description p {
+        font-size: 18px;
+        color: #344563;
+        font-weight: lighter;
+        font-family: 'Poppins', sans-serif;
+        line-height: 28px;
+    }
+
+    .element-exterieur li p {
+        color: #253858;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: -10px;
+    }
+
+    .bureau-a-propos h1 {
+        color: #091e42;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .bureau-a-propos li p {
+        color: #344563;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    p.connecter {
+        color: #3d4ee4;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .icones-contact {
+        margin-left: 1px;
+        padding: 10px;
+    }
+
+    .icones-contact li a {
+        font-size: 1.5em;
+        color: #505f79;
+    }
+
+    .contact {
+        background-color: #6070ff;
+        background-image: url(images/contact.png);
+        background-size: 100%;
+        border-top-left-radius: 100px;
+        margin-top: 100px;
+    }
+
+    .div-interne {
+        padding-top: 100px;
+        padding-right: 30px;
+        padding-left: 20px;
+    }
+
+    .div-interne h2 {
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 400;
+        padding-bottom: 0;
+    }
+
+    .div-interne p {
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #ebebff;
+    }
+
+    .formulaire {
+        padding-right: 30px;
+        padding-left: 20px;
+    }
+
+    .controle-formulaire {
+        background: #fff;
+        border: 1px solid #cfd8dc;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 8px;
+        width: 100%;
+        height: 50px;
+        padding-left: 10px;
+        color: #000;
+    }
+
+    .controle-formulaire {
+        background: #fff;
+        border: 1px solid #cfd8dc;
+        font-family: 'Poppins', sans-serif;
+        border-radius: 8px;
+        width: 100%;
+        height: 150px;
+        padding-left: 10px;
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 10px;
+    }
+
+    .forme {
+        padding-right: 25%;
+        padding-left: 35%;
+    }
+
+    button:hover {
+        background: #8f9afc;
+        color: white;
+    }
+
+    button:active {
+        background: #0416b6;
+        color: white;
+    }
+
+    #popup-portfolio {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(76, 78, 82, 0.7);
+        display: none;
+    }
+
+    ul.travaux-flex-element.titres-conteneur {
+        margin: 10px;
+    }
+
+    .travaux-flex {
+        padding: 20px;
+        background: #fff;
+        margin: 25px 20px;
+        border-radius: 10px;
+    }
+
+    .travail-image img {
+        width: 100%;
+    }
+
+    .titres-element {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: lightslategray;
+        font-weight: 500;
+        list-style-image: url(images/Counter.png);
+        padding-right: 25px;
+    }
+
+    .liste-principale {
+        padding-right: 10px;
+        list-style-type: none;
+        font-weight: 600;
+        font-size: 14px;
+        color: #344563;
+        line-height: 24px;
+    }
+
+    .travaux-flex-pop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100%;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    
+    .travail-description p {
+        font-size: 18px;
+        color: #344563;
+        font-weight: lighter;
+        font-family: 'Poppins', sans-serif;
+        line-height: 28px;
+    }
+    
+    .tags {
+        width: 25%;
+    }
+    
+    .tags ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    
+    .groupe-langage,
+    .groupe-langage-2 {
+        background: #ebebff;
+        border-radius: 8px;
+        font-size: 12px;
+        padding: 4px 12px 4px;
+        color: #6070ff;
+        margin-top: 5px;
+        line-height: 16px;
+    }
+    
+    .btn-tags {
+        border-top: 1px solid rgb(236, 234, 234);
+        padding-top: 20px;
+    }
+    
+    a.btn-voir-projet {
+        text-decoration: none;
+        color: #4053fc;
+    }
+    
+    .btn-voir-projet {
+        border: 1px solid #396df2;
+        padding: 7px;
+        border-radius: 8px;
+        font-size: 16px;
+        font-weight: 300;
+        text-transform: capitalize;
+        font-family: 'Poppins', sans-serif;
+        transition-duration: 0.4s;
+        margin: 0 5px 0 5px;
+    }
+    
+    @media screen and (min-width: 992px) {
+        body {
+            background-color: #e5e5e5;
+            font-family: 'Poppins', sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+    
+        a {
+            text-decoration: none;
+            text-decoration-line: none;
+        }
+    
+        .element-flex1, .forme, .element, .element-flex2, .element-mobile, .mobile {
+            display: none;
+        }
+    
+        .bureau {
+            position: fixed;
+            width: 100%;
+            display: flex;
+            flex: 1 1 auto;
+            text-align: center;
+            padding: 1em;
+            background-color: white;
+            justify-content: space-between;
+        }
+    
+        .element-tout a {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+            line-height: 20px;
+            color: #6070ff;
+            margin-left: 150px;
+            float: right;
+        }
+    
+        .element-bureau {
+            display: flex;
+            flex-direction: row;
+            margin-right: 100px;
+        }
+    
+        .element-bureau a {
+            padding-right: 20px;
+            color: #344563;
+            font-size: 15px;
+            font-weight: 500;
+            line-height: 20px;
+            text-align: center;
+            transition: color 2s;
+        }
+    
+        .icones-sociales a {
+            font-size: 2em;
+            color: #344563;
+        }
+    
+        .popup-travaux span a {
+            text-decoration: none;
+            font-weight: bolder;
+            color: #acb7c3;
+            font-size: 20px;
+            padding-right: 20px;
+        }
+    
+        .section-accueil {
+            background-image: url(images/Header_bg.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-color: white;
+            display: flex;
+            height: 620px;
+            flex-direction: column;
+            padding: 300px 200px 50px 250px;
+            margin-bottom: 120px;
+            border-bottom-left-radius: 100px;
+        }
+    
+        .section-accueil h1 {
+            color: #091e42;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 60px;
+        }
+    
+        .section-accueil p {
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 28px;
+            color: #344563;
+        }
+    
+        .icones-sociales {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            padding: 1px;
+            margin: 1px;
+        }
+    
+        .conteneur-principal {
+            display: grid;
+            grid-template-columns: auto;
+            grid-gap: 100px;
+            align-content: space-around;
+            margin: 100px 100px 150px 130px;
+        }
+    
+        #travail-1, #travail-3 {
+            background-color: white;
+            display: flex;
+            height: 450px;
+            flex-direction: row;
+            padding: 20px 20px;
+            border: 1px solid #e5e5e5;
+            border-radius: 30px;
+        }
+    
+        #travail-2, #travail-4 {
+            background-color: white;
+            display: flex;
+            height: 450px;
+            flex-direction: row-reverse;
+            padding: 20px 20px;
+            border: 1px solid #e5e5e5;
+            border-radius: 30px;
+        }
+    
+        .element-bureau1 {
+            padding-right: 30px;
+        }
+    
+        .colonne-bureau {
+            display: flex;
+            flex-direction: column;
+            padding: 1px 10px 100px 20px;
+        }
+    
+        .colonne-bureau h2 {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 52px;
+            color: #091e42;
+        }
+    
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            padding: 1px;
+            margin-left: -40px;
+            margin-top: -20px;
+        }
+    
+        .element-interne li a {
+            color: #6b778c;
+            font-size: 18px;
+            line-height: 24px;
+        }
+    
+        .canopy {
+            font-weight: 600;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 24px;
+            color: #344563;
+        }
+    
+        .element-flex4 {
+            padding-bottom: 25px;
+        }
+    
+        .element-flex4 p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: #344563;
+        }
+    
+        .element-flex3 {
+            display: flex;
+            align-content: space-around;
+            margin-left: 40px;
+        }
+    
+        .element-flex5 {
+            display: flex;
+            margin-left: 50px;
+        }
+    
+        .element-interne-flex {
+            display: flex;
+            column-gap: 10px;
+        }
+    
+        .element-interne-flex li a {
+            font-size: 12px;
+            font-weight: 500;
+            color: #6070ff;
+            border-radius: 8px;
+            text-align: center;
+            background: #ebebff;
+            padding: 5px 10px;
+        }
+    
+        .element-flex6 button {
+            border: 1px solid #dfe1e6;
+            border-radius: 8px;
+            width: 140px;
+            height: 50px;
+            text-align: center;
+            padding: 10px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            letter-spacing: 0.03em;
+            color: #396df2;
+            background-color: white;
+            margin-top: 30px;
+        }
+    
+        .cv {
+            border: 1px solid #dfe1e6;
+            border-radius: 8px;
+            width: 180px;
+            height: 50px;
+            text-align: center;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            letter-spacing: 0.03em;
+            color: #396df2;
+            background-color: white;
+        }
+    
+        button:hover {
+            background: #8f9afc;
+            color: white;
+        }
+    
+        button:active {
+            background: #0416b6;
+            color: white;
+            box-shadow: 0 8px 16px;
+        }
+    
+        .a-propos-de-moi {
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            padding: 100px 20px 150px 20px;
+            border-top-right-radius: 100px;
+            height: 680px;
+        }
+    
+        .bureau-a-propos {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            padding: 80px 10px 100px 120px;
+        }
+    
+        .competences {
+            display: flex;
+            flex-direction: column;
+            margin-right: 130px;
+            margin-left: 80px;
+            width: 500px;
+        }
+    
+        .bureau-programmation {
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .element-exterieur {
+            display: flex;
+            flex-direction: column;
+            width: 120px;
+            height: 100px;
+            background: #f7f7f9;
+            border-radius: 8px;
+            margin-right: 55px;
+            margin-top: 2px;
+            padding: 10px 10px 10px 10px;
+        }
+    
+        .travail-description p {
+            font-size: 18px;
+            color: #344563;
+            font-weight: lighter;
+            font-family: 'Poppins', sans-serif;
+            line-height: 28px;
+        }
+    
+        .element-exterieur li p {
+            color: #253858;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 20px;
+            margin-top: -10px;
+        }
+    
+        .bureau-a-propos h1 {
+            color: #091e42;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 40px;
+            line-height: 52px;
+        }
+    
+        .bureau-a-propos li p {
+            color: #344563;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    
+        p.connecter {
+            color: #3d4ee4;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    
+        .icones-contact {
+            margin-left: 1px;
+            padding: 10px;
+        }
+    
+        .icones-contact li a {
+            font-size: 1.5em;
+            color: #505f79;
+        }
+    
+        .contact {
+            background-color: #6070ff;
+            background-image: url(images/contact.png);
+            background-size: 100%;
+            border-top-left-radius: 100px;
+            margin-top: 100px;
+        }
+    
+        .div-interne {
+            padding-top: 100px;
+            padding-right: 30px;
+            padding-left: 20px;
+        }
+    
+        .div-interne h2 {
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            font-weight: 400;
+            padding-bottom: 0;
+        }
+    
+        .div-interne p {
+            font-size: 20px;
+            line-height: 28px;
+            text-align: center;
+            color: #ebebff;
+        }
+    
+        .formulaire {
+            padding-right: 30px;
+            padding-left: 20px;
+        }
+    
+        .controle-formulaire {
+            background: #fff;
+            border: 1px solid #cfd8dc;
+            font-family: 'Poppins', sans-serif;
+            border-radius: 8px;
+            width: 100%;
+            height: 50px;
+            padding-left: 10px;
+            color: #000;
+        }
+    
+        .controle-formulaire {
+            background: #fff;
+            border: 1px solid #cfd8dc;
+            font-family: 'Poppins', sans-serif;
+            border-radius: 8px;
+            width: 100%;
+            height: 150px;
+            padding-left: 10px;
+            font-size: 15px;
+            line-height: 24px;
+            padding-top: 10px;
+        }
+    
+        .forme {
+            padding-right: 25%;
+            padding-left: 35%;
+        }
+    
+        button:hover {
+            background: #8f9afc;
+            color: white;
+        }
+    
+        button:active {
+            background: #0416b6;
+            color: white;
+        }
+    
+        #popup-portfolio {
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgb(76, 78, 82, 0.7);
+            display: none;
+        }
+    
+        ul.travaux-flex-element.titres-conteneur {
+            margin: 10px;
+        }
+    
+        .travaux-flex {
+            padding: 20px;
+            background: #fff;
+            margin: 25px 20px;
+            border-radius: 10px;
+        }
+    
+        .travail-image img {
+            width: 100%;
+        }
+    
+        .titres-element {
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            color: lightslategray;
+            font-weight: 500;
+            list-style-image: url(images/Counter.png);
+            padding-right: 25px;
+        }
+    
+        .liste-principale {
+            padding-right: 10px;
+            list-style-type: none;
+            font-weight: 600;
+            font-size: 14px;
+            color: #344563;
+            line-height: 24px;
+        }
+    }    }
+
+    .mes-projets-section {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 20px;
+        margin-bottom: 100px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    
+    .mes-projets-content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .mes-projets-image {
+        width: 50%;
+        border-radius: 15px;
+    }
+    
+    .mes-projets-texte {
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .mes-projets-texte h2 {
+        font-size: 24px;
+        font-weight: bold;
+        color: #172b4d;
+    }
+    
+    .mes-projets-texte p {
+        font-size: 16px;
+        color: #344563;
+        line-height: 24px;
+    }
+    
+    @media screen and (max-width: 992px) {
+        .mes-projets-content {
+            flex-direction: column;
+        }
+        .mes-projets-image, .mes-projets-texte {
+            width: 100%;
+        }
+    }
+    
+    /* Ajouter ce style pour la photo de la tête */
+.photo-tete {
+    display: block;
+    margin: 10px auto; /* Centre l'image horizontalement */
+    margin-right: 100px;
+    width: 150px; /* Ajustez la taille selon vos besoins */
+    height: auto;
+    border-radius: 50%; /* Rend l'image circulaire */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre */
+}
+
+.cv {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #396df2;
+    background-color: white;
+    border: 1px solid #3d4ee4;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.cv:hover {
+    background: #8f9afc;
+    color: white;
+}
+
+.cv:active {
+    background: #0416b6;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Ajouté à la fin du fichier CSS */
+.projets-supplementaires {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.mes-projets-image {
+    width: 48%;
+    border-radius: 15px;
+}
+
+/* Ajoutez ce CSS dans votre fichier style.css à un endroit approprié */
+.logo-header {
+    height: 40px; /* Ajustez la hauteur selon vos besoins */
+    vertical-align: middle;
+    margin-right: 250px; /* Ajustez l'espacement entre le logo et le texte */
+}
+
+/* Ajoutez ce CSS dans votre fichier style.css */
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px; 
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; 
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Ajouter ce style à votre CSS existant */
+
+.modal-image {
+    width: 100%; /* Vous pouvez ajuster la taille en fonction de vos besoins */
+    height: auto;
+    margin-bottom: 20px; /* Espacement entre l'image et le texte */
+}
+
+/* Ajouter ce style à votre CSS existant */
+
+.carousel {
+    position: relative;
+    width: 100%;
+}
+
+.carousel-images {
+    display: flex;
+    overflow: hidden;
+}
+
+.carousel-images img {
+    width: 100%;
+    flex-shrink: 0;
+    transition: transform 0.5s ease-in-out;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    left: 0;
+    border-radius: 3px 3px 0 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Ajoutez ces styles à votre CSS */
+
+.mes-projets-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mes-projets-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Ajoutez ces styles à votre CSS */
+
+.mes-projets-image {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mes-projets-image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Ajoutez ce style pour les liens du header pour l'animation */
+nav .element-bureau a:hover,
+nav .element-bureau a:active {
+    background: #8f9afc;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
